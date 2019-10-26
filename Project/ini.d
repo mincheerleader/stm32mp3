@@ -1,0 +1,14 @@
+.\ini.o: ..\code\ini.c
+.\ini.o: ..\Libraries\inc\stm32f10x_gpio.h
+.\ini.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\ini.o: ..\CMSIS\CM3\CoreSupport\core_cm3.h
+.\ini.o: D:\MDK\mdk\ARM\ARMCC\Bin\..\include\stdint.h
+.\ini.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\ini.o: ..\code\stm32f10x_conf.h
+.\ini.o: ..\Libraries\inc\stm32f10x_gpio.h
+.\ini.o: ..\Libraries\inc\stm32f10x_rcc.h
+.\ini.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\ini.o: ..\Libraries\inc\stm32f10x_spi.h
+.\ini.o: ..\Libraries\inc\stm32f10x_usart.h
+.\ini.o: ..\Libraries\inc\misc.h
+.\ini.o: ..\code\ini.h
