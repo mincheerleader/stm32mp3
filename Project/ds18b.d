@@ -1,0 +1,14 @@
+.\ds18b.o: ..\code\ds18b.c
+.\ds18b.o: ..\code\ds18b.h
+.\ds18b.o: ..\Libraries\inc\stm32f10x_gpio.h
+.\ds18b.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\ds18b.o: ..\CMSIS\CM3\CoreSupport\core_cm3.h
+.\ds18b.o: D:\MDK\mdk\ARM\ARMCC\Bin\..\include\stdint.h
+.\ds18b.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\ds18b.o: ..\code\stm32f10x_conf.h
+.\ds18b.o: ..\Libraries\inc\stm32f10x_gpio.h
+.\ds18b.o: ..\Libraries\inc\stm32f10x_rcc.h
+.\ds18b.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\ds18b.o: ..\Libraries\inc\stm32f10x_spi.h
+.\ds18b.o: ..\Libraries\inc\stm32f10x_usart.h
+.\ds18b.o: ..\Libraries\inc\misc.h
