@@ -1,0 +1,21 @@
+--cpu Cortex-M3
+".\core_cm3.o"
+".\system_stm32f10x.o"
+".\misc.o"
+".\stm32f10x_gpio.o"
+".\stm32f10x_rcc.o"
+".\stm32f10x_spi.o"
+".\stm32f10x_usart.o"
+".\stm32f10x_exti.o"
+".\startup_stm32f10x_cl.o"
+".\main.o"
+".\mmc_sd.o"
+".\stm32f10x_it.o"
+".\ini.o"
+".\file.o"
+".\bsp_usart2.o"
+".\vs1053.o"
+--library_type=microlib --strict --scatter ".\SD.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\SD.map" -o .\SD.axf
