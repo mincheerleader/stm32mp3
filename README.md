@@ -1,11 +1,4 @@
+# VS1053
+A driver for VS1053_mp3
 
-
-# stm32mp3
-
-stm32f105rct+vs1053
-
-sd 8g  filesystem is fat32
-
-made the pcb through AD13.0
-
-softwave environment mdk5.0(keil5.0)
+一个驱动VS1053的程序，使用STM32作为主控。
